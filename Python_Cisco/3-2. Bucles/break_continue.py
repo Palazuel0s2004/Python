@@ -1,12 +1,12 @@
+# ejemplo 1
 # break - ejemplo
-"""
+
 print("La instrucción break:")
 for i in range(1, 6):
     if i == 3:
         break
     print("Dentro del bucle.", i)
 print("Fuera del bucle.")
-"""
 
 # continue - ejemplo
 
@@ -18,8 +18,7 @@ for i in range(1, 6):
 print("Fuera del bucle.")
 
 # ejemplo 2
-"""
-break
+# break - ejemplo
 
 largest_number = -99999999
 counter = 0
@@ -38,7 +37,7 @@ else:
     print("No has ingresado ningún número.")
 
 
-continue
+#continue
     
 largest_number = -99999999
 counter = 0
@@ -58,5 +57,5 @@ if counter:
     print("El número más grande es", largest_number)
 else:
     print("No has ingresado ningún número.")
-""" 
+ 
 
